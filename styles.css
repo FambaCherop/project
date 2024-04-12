@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+}
+
+header {
+    background-color:darkgray;
+    color: blue;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    margin:0
+    }
+input[type="text"] {
+     padding: 5px;
+     margin-right: 5px;
+}
+button {
+    background-color:deeppink;
+    color: black;
+    cursor: pointer;
+}
+button:hover {
+     background-color: blue;
+}
+main {
+    padding: 20px;
+}
+
+.genre {
+    border: 1px solid;
+    padding: 10px;
+}
+#genreList {
+    display:grid;
+    border: 1px solid red;
+    
+    
+    margin: 10%;
+    grid-template-columns: (auto-fill, minmax(200px,1fr));
+    gap: 20px;
+}
+.genre {
+    background-color:lightcyan;
+    padding: 20px;
+
+}
+.genre h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.genre p {
+    font-size: 14px;
+    color:lime ;
+}
+.genre p strong {
+    font-weight: bold;
+}
+.genre:hover {
+    transition: box-shadow 0.3s
+    ease-in-out;
+}
+body {
+    background-image: url("https://images.pexels.com/photos/417458/pexels-photo-417458.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size:contain;
+    background-position: center;
+}
+
+#notification {
+    color: white;
+}
+.artist-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.artist {
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.artist img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+.artist p {
+    text-align: center;
+}
